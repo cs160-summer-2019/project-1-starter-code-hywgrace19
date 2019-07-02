@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+}
+.rainbow {
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  position: relative;
+}
+.rainbow::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  opacity: 0.15;
+}
+body{
+  color: rgba(0, 22, 43, 1);
+  text-align: center;
+}
+.temp {
+  margin: 50px 10px;
+}
+h1, h2, h3, h4 {
+   font-family: "Courier New";
+}
+h2 {
+  font-size: 60px;
+  margin: 20px 100px;
+}
+h3 {
+  font-size: 50px;
+  margin: 20px auto;
+  font-type: bold;
+}
+h4 {
+  font-size: 40px;
+  margin: 20px 35px;
+}
+
+.nightsunny {
+  width: 150px;
+  height: 150px;
+  margin: 10px 5px 10px 5px;
+}
+.sunny {
+  width: 150px;
+  height: 150px;
+  margin: 10px 5px 10px 5px;
+}
+.daycloudy {
+  width: 150px;
+  height: 150px;
+  margin: 10px 5px 10px 5px;
+}
+.nightcloudy {
+  width: 150px;
+  height: 150px;
+  margin: 10px 5px 10px 5px;
+}
+.cursive {
+  font-size: 60px;
+  font-family: cursive;
+}
